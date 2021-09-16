@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+	
+	    subClass sc =new subClass();
+	    sc.disp();
+	
+	}
+}
+class subClass
+{
+    String msg = "hello welocom to java classes";
+    void disp()
+    {
+        System.out.println(msg);
+    }
+}

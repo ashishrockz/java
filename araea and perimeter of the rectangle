@@ -1,0 +1,25 @@
+class Main
+{
+    int a=10;
+    int b= 20;
+    void area()
+    {
+        int ar = a*b;
+        System.out.println("the length of the rectangle\t"+a);
+        System.out.println("the bradth of the rectangle\t"+b);
+        System.out.println("the area of the rectangle \t"+ar);
+    }
+    void perameter()
+    {
+        int pr = 2*(a+b);
+        System.out.println("the parameter of the rectangle\t"+pr);
+    }
+public static void main(String[] args) {
+    Main fobj = new Main();
+        
+        fobj.area();
+        
+        fobj.perameter();
+    }
+}
+ 
